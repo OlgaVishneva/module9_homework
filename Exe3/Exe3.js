@@ -33,7 +33,6 @@ function useRequest(url, callback) {
     });
     resultNode.innerHTML = pic;
  }
- function displayResult(apiData){}
  
  btnNode.addEventListener('click', () => {
     if (input.value >= 1 && input.value <= 10) {
